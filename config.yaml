@@ -1,0 +1,12 @@
+network:
+  bridge:
+    name: external bridge
+    external_interface: Ethernet
+
+vm:
+  - name: GPU-PV-Isabelle
+    memory: 8
+    cores: 6
+    vhdx:
+      path: V:\
+      size: 384
